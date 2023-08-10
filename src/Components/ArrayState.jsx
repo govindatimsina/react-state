@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function ArrayState() {
   const [item, setItem] = useState([]);
-  const [employee, setEmployee] = useState("");
+  const [employee, setEmployee] = useState(""); //to hold the employee name
 
   const updateEmployee = (e) => {
     setEmployee(e.target.value);
